@@ -1,0 +1,184 @@
+/* CSS */
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        color: rgba(36, 36, 36, 1);
+        background: rgb(249, 246, 240);
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        min-height: 59px;
+        background: rgba(17, 17, 17, 1);
+    }
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 24px;
+        max-width: 1480px;
+        min-height: 59px;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+
+    ul li {
+        list-style: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .brand-name {
+        margin-right: auto;
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sell-services {
+        display: flex;
+        justify-content: center;
+        min-height: 256px;
+        padding: 55px 24px;
+        color: white;
+        background: rgb(194, 57, 45);
+        text-align: center;
+    }
+
+    .sell-services section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #boaster-font {
+        font-size: 44px;
+        line-height: 1.1;
+        font-weight: bold;
+    }
+
+    #booking-link-decoration {
+        margin-top: 14px;
+        padding: 12px 26px;
+        color: white;
+        background: rgba(17, 17, 17, 1);
+        font-weight: bold;
+    }
+
+    .two-sections-inside {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 58px 0 70px;
+    }
+
+    .two-sections-inside section > h2 {
+        padding-bottom: 9px;
+        border-bottom: rgb(194, 57, 45) solid 3px;
+        font-size: 25px;
+    }
+
+    .top-section {
+        margin-bottom: 59px;
+    }
+
+    .table {
+        width: 100%;
+        color: black;
+        border-collapse: collapse;
+        font-weight: bold;
+    }
+
+    .table tr {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 8px;
+        border-bottom: solid 1px rgba(216, 216, 216, 1);
+    }
+
+    .item,
+    .price {
+        font-weight: bold;
+    }
+
+    .about-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .about-section h2 {
+        width: 100%;
+    }
+
+    .inside-photo {
+        width: 340px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .text-section {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .photo-text {
+        color: black;
+    }
+
+    .footer {
+        min-height: 174px;
+        background: rgba(17, 17, 17, 1);
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 36px 24px;
+        color: white;
+        text-align: center;
+    }
+
+    @media (max-width: 700px) {
+        .main-nav {
+            flex-wrap: wrap;
+            gap: 14px;
+            padding: 14px 18px;
+        }
+
+        .brand-name {
+            width: 100%;
+            margin-right: 0;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        #boaster-font {
+            font-size: 34px;
+        }
+
+        .two-sections-inside {
+            padding: 42px 20px 55px;
+        }
+
+        .inside-photo {
+            width: 100%;
+            height: auto;
+        }
+    }
