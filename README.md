@@ -4,17 +4,17 @@
 
 **[View Live Deployment](https://bostonbarberinroxbury.netlify.app/)**
 
-# 💈 Boston Barber
+#  Boston Barber
 
 A responsive, client-facing web application developed to showcase services and drive bookings for a local barbershop. This project focuses on mobile-first design principles, ensuring a seamless user experience for customers accessing the site on the go.
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 * **HTML5:** Semantic markup structured for SEO optimization and web accessibility (a11y) standards.
 * **CSS3:** Mobile-first responsive architecture utilizing CSS Grid and Flexbox to manage layout shifts across viewport sizes.
 * **Deployment:** CI/CD pipeline integrated via Netlify for automated, production-ready builds.
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 1. **Clone the repository:**
    ```bash
