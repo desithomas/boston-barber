@@ -2,6 +2,7 @@
 
 <img width="1528" height="1282" alt="boston-barber" src="https://github.com/user-attachments/assets/ab9fa990-1320-4919-ac8d-9454fcfb3496" />
 
+**[View Live Deployment](https://bostonbarberinroxbury.netlify.app/)**
 
 # 💈 Boston Barber
 
@@ -10,7 +11,8 @@ A responsive, client-facing web application developed to showcase services and d
 ## 🧩 Tech Stack
 
 * **HTML5:** Semantic markup structured for SEO optimization and web accessibility (a11y) standards.
-* **CSS3:** Mobile-first responsive architecture utilizing CSS Grid and Flexbox to manage layout shifts across viewport sizes. 
+* **CSS3:** Mobile-first responsive architecture utilizing CSS Grid and Flexbox to manage layout shifts across viewport sizes.
+* **Deployment:** CI/CD pipeline integrated via Netlify for automated, production-ready builds.
 
 ## 🚀 How to Run Locally
 
